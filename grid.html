@@ -19,20 +19,27 @@
           <span>Тут будет фото</span>
         </div>
         <div class="profile-form__form">
-          <div class="name">
-            <label for="name">Кличка</label>
-            <input type="text" class="input" name="name" id="name">
+          <div class="field">
+            <label for="name-field" class="field__label">Кличка</label>
+            <input type="text" class="field__input" name="name" id="name">
           </div>
-
-          <div class="about">
-            <label for="about">О себе</label>
+          <div class="group-filed">
+            <div class="field">
+              <label for="breed-field" class="field__label">Порода</label>
+              <input type="text" class="field__input" name="name" id="name">
+            </div>
+            <div class="field">
+              <label for="place-field" class="field__label">Любимое место для лежания</label>
+              <input type="text" class="field__input" name="name" id="name">
+            </div>
+          </div>
+          <div class="textarea">
+            <label for="about-field">О себе</label>
             <textarea rows="4" class="input" name="about" id="about"></textarea>
           </div>
-
-          <div class="food">
-            <label for="food">Любимое лакомство</label>
+          <div class="food-field">
+            <label for="food-field">Любимое лакомство</label>
           </div>
-
           <div class="checkbox-1">
             <label for="chicken">
               <input id="chicken" name="food" type="checkbox" value="1" checked="checked">
