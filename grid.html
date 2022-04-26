@@ -21,35 +21,56 @@
         <div class="profile-form__form">
           <div class="field">
             <label for="name-field" class="field__label">Кличка</label>
-            <input type="text" class="field__input" name="name" id="name">
+            <input type="text" class="field__input" name="name-field">
           </div>
           <div class="group-filed">
             <div class="field">
               <label for="breed-field" class="field__label">Порода</label>
-              <input type="text" class="field__input" name="name" id="name">
+              <input type="text" class="field__input" name="breed-field">
             </div>
             <div class="field">
               <label for="place-field" class="field__label">Любимое место для лежания</label>
-              <input type="text" class="field__input" name="name" id="name">
+              <input type="text" class="field__input" name="place-field">
             </div>
           </div>
           <div class="textarea">
-            <label for="about-field">О себе</label>
-            <textarea rows="4" class="input" name="about" id="about"></textarea>
+            <label for="about">О себе</label>
+            <textarea rows="4" name="about" id="about"></textarea>
           </div>
           <div class="food-field">
-            <label for="food-field">Любимое лакомство</label>
-          </div>
-          <div class="checkbox-1">
-            <label for="chicken">
-              <input id="chicken" name="food" type="checkbox" value="1" checked="checked">
-              Курочка
-            </label>
+            <div class="field">
+              <label class="food-field__label" for="food-field">Любимое лакомство</label>
+            </div>
+            <div class="food-field__choice">
+              <div class="checkbox">
+                <label for="chicken">
+                  <input id="chicken" name="chicken" type="checkbox" value="1" checked="checked">
+                  Курочка
+                </label>
+              </div>
+              <div class="checkbox">
+                <label for="duck">
+                  <input id="duck" name="duck" type="checkbox" value="2">
+                  Уточка
+                </label>
+              </div>
+              <div class="checkbox">
+                <label for="turkey">
+                  <input id="turkey" name="turkey" type="checkbox" value="3">
+                  Индеечка
+                </label>
+              </div>
+              <div class="checkbox">
+                <label for="another">
+                  <input id="another" name="another" type="checkbox" value="4">
+                  Другое
+                </label>
+              </div>
+            </div>
           </div>
           <div class="submit">
             <label for="send">
               <input id="submit" name="send" type="submit" value="Подать заявку" class="submit-btn">
-
             </label>
           </div>
         </div>
