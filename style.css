@@ -50,6 +50,7 @@ input[type="checkbox"] {
 
 .profile {
   width: 950px;
+  margin: 0 auto;
 }
 
 .profile-form {
